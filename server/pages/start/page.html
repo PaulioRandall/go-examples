@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>{{ .Title }}</title>
+		{{ template "std-head.html" }}
+
+	</head>
+	<body>
+
+		<div class="page-content">
+			<div class="govuk-width-container">
+			  <main class="govuk-main-wrapper">
+
+					{{ template "page-title.html" . }}
+
+			    {{ template "start-now-button.html" .StartNowButton }}
+			    
+			  </main>
+			</div>
+		</div>
+
+	</body>
+</html>

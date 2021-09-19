@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>{{ .Title }}</title>
+		{{ template "std-head.html" }}
+
+	</head>
+	<body>
+
+		<div class="page-content">
+			<div class="govuk-width-container">
+		  	<a href="{{ .BackLink }}" class="govuk-back-link">Back</a>
+
+			  <main class="govuk-main-wrapper">
+
+					{{ template "page-title.html" . }}
+
+			    <a class="govuk-link" href="{{ .NextLink }}">Next</a>
+			  </main>
+			</div>
+		</div>
+
+	</body>
+</html>

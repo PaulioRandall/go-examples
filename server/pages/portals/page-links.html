@@ -1,0 +1,14 @@
+{{ range $i, $pageLink := .PageLinks }}
+<div class="govuk-grid-row">
+	<div class="govuk-grid-column-full">
+		<span>
+			<a class="govuk-link"
+				href="{{ $pageLink.Link }}"
+				target="_blank"
+				rel="noopener noreferrer">
+				{{ $pageLink.Name }}
+			</a>
+		</span>
+	</div>
+</div>
+{{ end }}
