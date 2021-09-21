@@ -3,14 +3,14 @@ package start
 import (
 	"net/http"
 
-	"github.com/PaulioRandall/go-examples/server/shared/components"
-	"github.com/PaulioRandall/go-examples/server/shared/page"
-	"github.com/PaulioRandall/go-examples/server/shared/render"
+	"github.com/PaulioRandall/go-examples/webserver/shared/components"
+	"github.com/PaulioRandall/go-examples/webserver/shared/page"
+	"github.com/PaulioRandall/go-examples/webserver/shared/render"
 )
 
 var renderer page.PageRenderer = render.NewPageRenderer(
-	"server/pages/start/page.html",
-	"server/pages/start/start-now-button.html",
+	"webserver/pages/start/page.html",
+	"webserver/pages/start/start-now-button.html",
 	components.StdHeadHTML,
 	components.PageTitleHTML,
 )

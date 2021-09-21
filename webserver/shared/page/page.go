@@ -3,7 +3,7 @@ package page
 import (
 	"net/http"
 
-	"github.com/PaulioRandall/go-examples/server/shared/logfmt"
+	"github.com/PaulioRandall/go-examples/webserver/shared/logfmt"
 )
 
 type PageRenderer interface {

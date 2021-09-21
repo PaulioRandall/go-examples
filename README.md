@@ -1,7 +1,6 @@
 # Examples of the Go Programming Language
 
-Here lies a set of Go files demonstrating the syntax and rules of the Go
-programming language.
+An example web server demonstrating the Go programming language.
 
 ## Getting Started
 
@@ -25,6 +24,8 @@ git clone https://github.com/PaulioRandall/go-examples.git
 cd "go-examples"
 ```
 
-5. Check everything works by running
+**5** Start the server
 
-> TODO
+```bash
+./godo run
+```

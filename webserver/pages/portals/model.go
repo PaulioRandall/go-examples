@@ -1,7 +1,7 @@
 package portals
 
 import (
-	"github.com/PaulioRandall/go-examples/server/pages"
+	"github.com/PaulioRandall/go-examples/webserver/pages"
 )
 
 type (

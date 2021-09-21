@@ -3,10 +3,10 @@ package first
 import (
 	"net/http"
 
-	"github.com/PaulioRandall/go-examples/server/pages"
-	"github.com/PaulioRandall/go-examples/server/shared/components"
-	"github.com/PaulioRandall/go-examples/server/shared/page"
-	"github.com/PaulioRandall/go-examples/server/shared/render"
+	"github.com/PaulioRandall/go-examples/webserver/pages"
+	"github.com/PaulioRandall/go-examples/webserver/shared/components"
+	"github.com/PaulioRandall/go-examples/webserver/shared/page"
+	"github.com/PaulioRandall/go-examples/webserver/shared/render"
 )
 
 var model = struct {
@@ -20,7 +20,7 @@ var model = struct {
 }
 
 var renderer page.PageRenderer = render.NewPageRenderer(
-	"server/pages/first/page.html",
+	"webserver/pages/first/page.html",
 	components.StdHeadHTML,
 	components.PageTitleHTML,
 )
