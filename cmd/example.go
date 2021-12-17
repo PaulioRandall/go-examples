@@ -61,6 +61,7 @@ func main() {
 	// If
 	// If else
 	// If else if
+	// If, with prefix statement
 
 	// 7.
 	// Switch
@@ -123,7 +124,7 @@ func main() {
 	// pointers:   nil
 
 	// 16.
-	// Testing 
+	// Testing
 
 	// 17.
 	// Concise error handling, still being debated
